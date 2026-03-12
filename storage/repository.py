@@ -1,7 +1,7 @@
 import datetime as dt
 import json
 
-from ..models.tasks import Priority, Status, Task
+from models.tasks import Priority, Status, Task
 
 JSON_PATH = "tasks.json"
 
