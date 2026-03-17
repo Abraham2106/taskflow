@@ -1,17 +1,17 @@
 # N-tier Architecture 
 An N-tier architecture divides an application into logical layers and physical tiers.  
-The layers separate resposibilities and manage dependencies. Each layer has a specific  
-responsiblity. A higher layer can use services in a lower layer, but a lower layer can't   
+The layers separate responsibilities and manage dependencies. Each layer has a specific  
+responsibility. A higher layer can use services in a lower layer, but a lower layer can't   
 use services from a higher layer. 
 
-A traditional N-tier appplication has three layers: the presentation layer, a business tier and a database tier. The more complex the more tiers the application can have. 
+A traditional N-tier application has three layers: the presentation layer, a business tier and a database tier. The more complex the more tiers the application can have. 
 The layers: 
 * Presentation layer: This layer is responsible for the user interface and user experience. It handles user interactions and displays data to the user.
 * Business layer: This layer contains the business logic and rules of the application. It processes data received from the presentation layer and interacts with the data layer to perform operations.
 * Data layer: This layer is responsible for data storage and retrieval. It interacts with databases or other data sources to manage the application's data.
 
-An N-tier applicationc an have a closed layer architecture or an open layer architecture.  
-* In a closed layer architecture, a layer can only call the next layer inmmediately down.  
+An N-tier application can have a closed layer architecture or an open layer architecture.  
+* In a closed layer architecture, a layer can only call the next layer immediately down.  
 * In a open layer architecture, a layer can call any lower layer.  
 
 A closed layer architecture limits the dependencies between layers. It can create unnecessary  
@@ -19,7 +19,7 @@ network traffic if one layer only passes requests along to the next layer.
 
 ## When to use an N-tier architecture
 An N-tier architecture is considered a good choice in the following scenarios:  
-* Support architetural requirements that are still evolving.  
+* Support architectural requirements that are still evolving.  
 * Migrate an on-premise application to the cloud. 
 * Develop applications that span both on-premise and cloud environments. 
 
